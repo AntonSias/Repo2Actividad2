@@ -1,4 +1,5 @@
-package Requirimiento2;
+package Requirimiento1;
+
 /**
  * @autor Minerva
  * version 1.0.
@@ -88,4 +89,3 @@ public class Jugador {
     }
 
 }
-

@@ -16,7 +16,12 @@ public class Jugador {
 
     private int numeroTarjetasRojas;
     
-    
+    //CONSTRUCTOR
+    public Jugador(int dorsal, int numeroTarjetasAmarillas,int numeroTarjetasRojas) {
+    	this.dorsal = dorsal;
+    	this.numeroTarjetasAmarillas = numeroTarjetasAmarillas;
+    	this.numeroTarjetasRojas = numeroTarjetasRojas;
+    }
     // GETTERS & SETTERS
 	public int getDorsal() {
 		return dorsal;

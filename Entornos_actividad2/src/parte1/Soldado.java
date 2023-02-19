@@ -12,11 +12,19 @@ public class Soldado {
 	
     private int numeroBalas;
     
-	public boolean isEstaMuerto() {
-		return estaMuerto;
+	
+	
+	//CONSTRUCTOR
+	public Soldado(boolean estaMuerto, int numeroBalas) {
+		super();
+		this.estaMuerto = estaMuerto;
+		this.numeroBalas = numeroBalas;
 	}
 	
 	//GETTERS & SETTERS
+	public boolean getEstaMuerto() {
+		return estaMuerto;
+	}
 	public void setEstaMuerto(boolean estaMuerto) {
 		this.estaMuerto = estaMuerto;
 	}
@@ -50,8 +58,8 @@ public class Soldado {
 
 
 	/**
-	 * Este método cambia el estado del objeto Soldado que le pasamos como parámetro
-	 * restándole en 1 el número de balas y cambiando su estado boolean de estaMuerta a true.
+	 * Este método cambia el estado del objeto this Soldado
+	 * restándole en 1 el número de balas y cambiando su estado boolean al objeto que le pasamos como parámetro de estaMuerto a true.
 	 * @param sol El parámetro sol es un objeto de tipo Soldado 
 	 */
 	public void disparar(Soldado sol) {

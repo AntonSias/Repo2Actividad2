@@ -15,7 +15,10 @@ package Hsv;
        private boolean estaMuerto;
        private int numeroBalas;
 
-  /***-------- GETTER AND SETTER ---------***/
+ 
+
+
+/***-------- GETTER AND SETTER ---------***/
        
        
        public boolean isEstaMuerto() {

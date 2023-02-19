@@ -10,7 +10,7 @@ package Hsv;
  public class Jugador {
 
  /**
- * ---CREAMOS LOS ATRIBUTOS DE LA CLASE SOLDADO---
+ * ---CREAMOS LOS ATRIBUTOS DE LA CLASE JUGADOR ---
  */	 
 	 private int dorsal;
 
